@@ -7,8 +7,8 @@
     border: none;
     border-radius: 0;
     min-height: 0;
-    font-family: 'Adwaita Mono';
-    font-size: 16px;
+    font-family: "JetBrainsMono Nerd Font Propo";
+    font-size: 14px;
 }
 
 .modules-left {
@@ -29,118 +29,67 @@
     opacity: 0.6;
 }
 
+#tray,
+#mpris,
+#memory,
+#cpu,
+#battery,
+#network,
+#backlight,
+#bluetooth,
+#pulseaudio,
+#custom-weather,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator,
+#custom-updatespacman,
+#custom-update,
+#custom-screenrecording-indicator,
+#clock {
+    font-weight: bold;
+    min-width: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0 2px 0 2px;
+}
 
-#custom-omarchy,
-#custom-update {
+#custom-omarchy {
+    font-size: 18px;
     min-width: 14px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-#tray {
-    margin-right: 10px;
+#workspaces {
     margin-left: 10px;
 }
 
-#network {
-    color: #ec4899;
-    margin-left: 15px;
-    margin-right: 20px;
+#custom-screenrecording-indicator.active,
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active,
+#custom-voxtype.recording {
+    color: #a55555;
+}
+#battery.critical {
+    color: #ef4444;
 }
 
-#pulseaudio {
-    color: #e879f9;
-    /* margin-left: 15px; */
-    margin-right: 25px;
-}
-
-#custom-expand-icon {
-    margin-right: 10px;
+#custom-spacer {
+    color: #fff;
+    opacity: 0.2;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 tooltip {
     padding: 2px;
 }
 
-#custom-update {
-    font-size: 10px;
-}
-
-#clock {
-    color: #fde047;
-    /*margin-right: 1px;*/
-    margin-left: 10px;
-}
-#cpu {
-    color: #2dd4bf;
-    margin-left: 15px;
-    /* margin-right: 5px; */
-}
-#memory {
-    color: #f59e0b;
-    margin-left: 10px;
-    margin-right: 15px;
-}
-
-#battery {
-    color: #84cc16; /* green */
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-
-#custom-omarchy {
-    margin-right: 10px;
-    color: #a3e635;
-}
-
-#custom-weather {
-    color: #4ade80;
-    margin-left: 15px;
-    /*margin-right: 10px;*/
-}
-
 .hidden {
     opacity: 0;
-}
-
-#custom-screenrecording-indicator,
-#custom-idle-indicator,
-#custom-notification-silencing-indicator {
-    min-width: 12px;
-    margin-left: 5px;
-    margin-right: 0;
-    font-size: 12px;
-    padding-bottom: 1px;
-}
-
-#custom-screenrecording-indicator.active {
-    color: #a55555;
-}
-
-#custom-idle-indicator.active,
-#custom-notification-silencing-indicator.active {
-    color: #a55555;
 }
 
 #custom-voxtype {
     min-width: 12px;
     margin: 0 0 0 7.5px;
-}
-
-#custom-voxtype.recording {
-    color: #a55555;
-}
-
-
-#battery.warning {
-    color: #f59e0b; /* orange */
-}
-#battery.critical {
-    color: #ef4444; /* red */
-}
-#battery.charging,
-#battery.plugged,
-#battery.full {
-    color: #3b82f6;
 }
