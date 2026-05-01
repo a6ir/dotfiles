@@ -7,8 +7,8 @@ TERM = "xterm-256color"
 osc52 = "CopyPaste"
 
 [font]
-normal = { family = "Adwaita Mono" }
-bold = { family = "Adwaita Mono" }
+normal = { family = "JetBrainsMono Nerd Font" }
+bold = { family = "JetBrainsMono Nerd Font Mono" }
 italic = { family = "Adwaita Mono" }
 size = 14
 
